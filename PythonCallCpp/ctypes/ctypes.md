@@ -49,7 +49,11 @@ WinDLL("yyy/zzz.dll", winmode=0)
 
 # ctypes 基础
 
-## 传递字符串
+## 类型对应
+
+![image-20220826133242823](https://s2.loli.net/2022/08/26/Rm4b8lwyd6ZgSc5.png)
+
+### 传递字符串
 
 | python函数              | C++类型 |
 | ----------------------- | ------- |

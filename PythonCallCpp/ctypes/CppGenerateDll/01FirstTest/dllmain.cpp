@@ -41,7 +41,7 @@ LIB_API void TestCtypesStringA(const char* str, int size) {
 
 LIB_API void TestCtypesStringB(const wchar_t* w_str, int size) {
 	// 暂时用C语言输出
-	wprintf(L"%s", w_str);
-	//cout << w_str << endl;
+	printf("%ls", w_str);
+	//wcout << w_str << endl;	// 会乱码
 }
 
